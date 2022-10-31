@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Neue";
-  src: local("Neue"), url(../fonts/Neue.TTF) format("truetype");
+  src: local("Neue"), url(../fonts/Neue.ttf) format("truetype");
 }
 
 
