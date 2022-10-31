@@ -32,7 +32,7 @@ export default function CarF() {
         modules={[FreeMode, Autoplay]}
         className="mySwiper "
       >
-        <SwiperSlide><div id="spinB" ><h1 id="spinF">HECHO CON AMOR  </h1></div></SwiperSlide>
+        <SwiperSlide><div id="spinB" ><h1 id="spinF">HECHO CON AMOR ❤️ </h1></div></SwiperSlide>
         
       </Swiper>
     </>
