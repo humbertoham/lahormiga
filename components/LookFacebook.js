@@ -10,7 +10,7 @@ function  LookFacebook() {
 
                             <h1 className="textF">¡SIGUENOS EN FACEBOOK! </h1>
                                 
-                                <a id="verF" target="_blank" href="https://www.facebook.com/Lahormigadreynosa">AQUÍ</a>
+                                <a id="verF" rel="noreferrer" target="_blank" href="https://www.facebook.com/Lahormigadreynosa">AQUÍ</a>
                         </div>
         
                        
