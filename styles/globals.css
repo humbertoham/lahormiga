@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "VAGROUND";
+  src: local("VAGROUND"), url(../fonts/VAGROUND.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Neue";
+  src: local("Neue"), url(../fonts/Neue.TTF) format("truetype");
+}
+
+
+
+/* 
+#e41e26 logo
+#ffe88d amarillo
+#921a1d rojo oscuro
+#a91f23 background
+#c82127 rojo brillante
+#db5279 rosa
+*/
+html{
+  scroll-behavior: smooth;
+}
+.navF a{
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #F9F6EE;
+  text-align: center;
+  justify-content: center;
+
+}
+.navF :hover{
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+.navB {
+  
+  background-color: #c82127!important;
+}
+.navT {
+  
+  background-color: #F9F6EE !important;
+}
+.navM{
+  width: 100% !important;
+}
+
+.logo{
+  width: auto;
+  height: 100px;
+  
+}
+.margin{
+  margin-right: 100px;
+}
+
+
+  #menuB{
+    justify-content: end !important;
+    
+  }
+
+#footer {
+  padding: 7% 15%;
+  
+  text-align: center;
+}
+#foot{
+  font-family: "Neue";
+  font-size: 1rem;
+  font-weight: 500;
+}
+#lahormiga{
+  color: #212529;
+  text-decoration: none;
+  
+} #lahormiga:hover{
+  
+  text-decoration: underline !important;
+}
+.banner{
+  padding: 50px;
+  padding-bottom: 80px;
+  overflow: hidden !important;
+}
+.lookM{
+  background: #921a1d ;
+  padding: 50px;
+  padding-bottom: 80px;
+}
+.lookF{
+  background: #db5279  ;
+  padding: 50px;
+  padding-bottom: 80px;
+}
+.map{
+  width: 100%;
+  height: 600px;
+}
+.lookL{
+  background: #F9F6EE ;
+  padding: 50px;
+  padding-bottom: 80px;
+}
+#fresas{
+  width:100%;
+  height: auto;
+  margin: auto;
+}
+.post{
+  padding: auto;
+}
+#poster{
+  
+    width:100%;
+    height: auto;
+    margin: auto;
+    z-index: 0;
+    margin-top: 40px;
+  
+}
+.elote{
+  width: auto;
+  height: 500px;
+ transform: rotate(30deg);
+  z-index: -1;
+  margin-left: 150px;
+}
+.row{
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.eloteD{
+  justify-content: end !important;
+  margin: auto;
+}
+.text{
+  color: #F9F6EE;
+  font-size: 5rem;
+  margin-top: 50px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  text-align: left;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+}
+.textM{
+  color: #ffe88d ;
+  inline-size:auto;
+  margin: auto;
+    overflow-wrap: break-word;
+  font-size: 4rem;
+  margin-top: 15%;
+  word-spacing: 0px;
+  line-height: 60px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  
+}
+.textL{
+  color: #212529;
+  inline-size:auto;
+  margin: auto;
+    overflow-wrap: break-word;
+  font-size: 4rem;
+  margin-top: 15%;
+  word-spacing: 0px;
+  line-height: 60px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  
+}
+.subC{
+  color: #212529;
+  font-size: 1.5rem;
+
+ font-family: "Neue";
+  font-weight: 500;
+  text-align: left;
+ 
+  z-index: 10;
+  position: relative;
+}
+.subL{
+  color: #db5279;
+  font-size: 1.5rem;
+  margin-top: 15%;
+ font-family: "Neue";
+  font-weight: 500;
+  text-align: center;
+ 
+  z-index: 10;
+  position: relative;
+}
+.butC{
+  color: #921a1d;
+  background-color: #ffe88d;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  width: 300px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10%;
+  display: block;
+  box-shadow: -8px 8px #fad850;
+  border: unset;
+}
+.butC:hover{
+  opacity: 0.8;
+  color: #921a1d !important;
+}
+.textC{
+  color: #212529 ;
+  inline-size:auto;
+  margin: auto;
+    overflow-wrap: break-word;
+  font-size: 3rem;
+  
+  word-spacing: 0px;
+  line-height: 60px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  
+}
+.textF{
+  color: #F9F6EE;
+  inline-size:auto;
+  margin: auto;
+    overflow-wrap: break-word;
+  font-size: 4rem;
+  margin-top: 50%;
+  word-spacing: 0px;
+  line-height: 60px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  
+}
+.sub{
+  color: #F9F6EE;
+  font-size: 2rem;
+
+ font-family: "Neue";
+  font-weight: 500;
+  text-align: left;
+ 
+  z-index: 10;
+  position: relative;
+}
+#verM{
+  color: #921a1d;
+  background-color: #ffe88d;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  width: 300px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10%;
+  display: block;
+  box-shadow: -8px 8px #fad850;
+}
+#verF{
+  color: #921a1d;
+  background-color: #F9F6EE;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  width: 300px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10%;
+  display: block;
+  box-shadow: -8px 8px #87847e;
+}
+#verL{
+  color: #F9F6EE;
+  background-color: #db5279;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  width: 300px;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10%;
+  display: block;
+  box-shadow: -8px 8px #7d2f45;
+}
+#verM:hover{
+  opacity: .8;
+}
+#verF:hover{
+  opacity: .8;
+}
+.subM{
+  color: #F9F6EE;
+  font-size: 2rem;
+  margin-top: 30px;
+ font-family: "Neue";
+  font-weight: 500;
+  text-align: center;
+ 
+  z-index: 10;
+  position: relative;
+}
+
+/*
+#intro{
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  height: 800px;
+  
+}
+.hidden{
+ z-index: -1 !important;
+ 
+}
+#logoI{
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  height: 100px;
+  
+}
+*/
+@keyframes show {
+  to {
+      width:0;
+      height:0;
+      overflow: hidden;
+  }
+}
+@-webkit-keyframes show {
+  to {
+      width:0;
+      height:0;
+      visibility: hidden;
+  }
+}
+@media screen and (max-width: 1100px){
+  
+  .elote{
+    
+    margin-left: 0px;
+  }
+  
+  
+  }
+@media screen and (max-width: 991px){
+  .margin{
+    margin-right: 0px;
+  }
+  .navF a{
+    color: #c82127;
+    
+  }
+  
+  .text{
+  
+    font-size: 4rem;
+
+   
+  }
+  }
+  #menuImg{
+    width: 100%;
+    height: auto;
+  }
+  #spin{
+    color: black;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  }
+  #spinB{
+    background-color: #c82127;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #spinF{
+    color: #F9F6EE;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "VAGROUND" !important; 
+  font-weight: 900;
+  }
+  .marg{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+  .swiper-slide{
+    width: 100% !important;
+  }
+  
+  @media screen and (max-width: 767px){
+    .textF{
+      
+      margin-top: 10%;
+     
+      
+    }
+    .map{
+      width: 100%;
+      height: 350px;
+    }
+    .elote{
+      
+      margin-left: 100px;
+    }
+  }
+  @media screen and (max-width: 620px){
+    #verF{
+      font-size: 1.5rem;
+      width: 200px;
+       margin-bottom: 50px;
+    }
+    .butC{
+      font-size: 1.5rem;
+      width: 200px;
+       margin-bottom: 50px;
+    }
+    #verM{
+      font-size: 1.5rem;
+      width: 200px;
+       margin-bottom: 50px;
+    }
+    #verL{
+      font-size: 1.5rem;
+      width: 200px;
+       margin-bottom: 50px;
+    }
+    .textF{
+      font-size: 2rem;
+      line-height: 30px;
+      
+    }
+    .textL{
+      font-size: 2rem;
+      line-height: 30px;
+      
+    }
+    .text{
+      font-size: 3rem;
+      text-align: center;
+
+    }
+    .textM{
+      font-size: 2rem;
+      line-height: 30px;
+
+    }
+    .textC{
+      font-size: 2rem;
+      line-height: 30px;
+
+    }
+    .lookM{
+      
+      padding: 20px;
+    }
+    #fresas{
+      margin-top: 20px;
+    }
+    .sub{
+      text-align: center;
+    }
+    .subM{
+      font-size: 1.5rem;
+    }
+    .subC{
+      font-size: 1.2rem;
+    }
+    .subL{
+      font-size: 1.5rem;
+    }
+    .elote{
+      margin-top: 50px;
+      height: 300px;
+      
+    }
+
+  }
+  @media screen and (max-width: 500px){
+    
+    .elote{
+      
+      margin-left: 50px;
+    }}
+  @media screen and (max-width: 420px){
+  
+    .elote{
+      
+      margin-left: 0px;
+    }}
