@@ -327,6 +327,9 @@ html{
 #verF:hover{
   opacity: .8;
 }
+#verL:hover{
+  opacity: .8;
+}
 .subM{
   color: #F9F6EE;
   font-size: 2rem;
