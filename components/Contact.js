@@ -6,7 +6,8 @@ function  Contact() {
       <div id="contacto" class="mt-5 container">
             <div class="text-center">
                 <h1 class="textC">CONTÁCTANOS</h1>
-               
+                <p>Correo: deliacruzcasso@gmail.com</p>
+                <p>Telefóno: 811 857 66 98</p>
             </div>
             <div class="subC d-flex align-items-center justify-content-center">
                 <div class="bg-white col-md-4">

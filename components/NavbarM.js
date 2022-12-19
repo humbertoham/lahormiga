@@ -32,8 +32,8 @@ function  NavbarM() {
                 <Nav className="justify-content-center margin navF flex-grow-1 pe-3">
                   <Nav.Link href="/">INICIO</Nav.Link>
                   <Nav.Link href="/menu">MENÚ</Nav.Link>
-                  <Nav.Link href="#ubicacion">UBICACIÓN</Nav.Link>
-                  <Nav.Link href="#contacto">CONTÁCTANOS</Nav.Link>
+                  <Nav.Link href="/ubicaciones">UBICACIONES</Nav.Link>
+                  <Nav.Link href="/servicios">SERVICIOS</Nav.Link>
                 </Nav>
                
               </Offcanvas.Body>
