@@ -35,11 +35,11 @@ export default function Roullette() {
          navigation={true}
          className="mySwiper"
       >
-        <SwiperSlide><div className="rouD"><img src="./images/image1.jpeg" className="rou"/></div></SwiperSlide>
+        
         <SwiperSlide><div className="rouD"><img src="./images/image2.jpeg" className="rou"/></div></SwiperSlide>
-        <SwiperSlide><div className="rouD"><img src="./images/image4.jpeg" className="rou"/></div></SwiperSlide>
+        
         <SwiperSlide><div className="rouD"><img src="./images/image5.jpeg" className="rou"/></div></SwiperSlide>
-        <SwiperSlide><div className="rouD"><img src="./images/image6.jpeg" className="rou"/></div></SwiperSlide>
+        
         <SwiperSlide><div className="rouD"><img src="./images/image7.jpeg" className="rou"/></div></SwiperSlide>
       </Swiper>
     </>

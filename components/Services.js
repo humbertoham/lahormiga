@@ -4,7 +4,7 @@ function  Services() {
       <>
         <div class="row lookM navB">
         <div class="col-md-6 ">
-                            <img id="fresas" src="./images/image1.jpeg" alt=""/>
+                            <img id="fresas" src="./images/image2.jpeg" alt=""/>
                         </div>
                         <div class="col-md-6">
                             <h1 className="textM">ELOTES EN VASO </h1>
