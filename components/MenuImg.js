@@ -3,7 +3,7 @@ function  MenuImg() {
 
       <>
           <div>
-            <img id="menuImg" src="./images/menu.jpg" alt=""/>
+            <img id="menuImg" src="./images/menu.png" alt=""/>
           </div>
         
       
